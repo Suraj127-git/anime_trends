@@ -1,5 +1,6 @@
 export class LLMService {
     async generateResponse(userInput: string): Promise<string> {
+     
         try {
             console.log('Starting generateResponse with input:', userInput);
 
